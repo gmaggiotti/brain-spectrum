@@ -241,7 +241,7 @@ def in_range(Template, Scroll, Distance):
 	"""
 
 def bin_power(X,Band,Fs):
-	"""Compute power in each frequency bin specified by Band from FFT result of 
+	"""Compute power in each frequency bin specified by Band from Fast Fourier Transform result of
 	X. By default, X is a real signal. 
 
 	Note
